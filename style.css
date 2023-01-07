@@ -1,0 +1,87 @@
+body{
+    position: relative;
+    font-family: "Varela Round", sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    min-width: 320px;
+    margin: 0;
+    padding: 0;
+}
+
+.background{
+    background-image: url("background.png");
+    min-height: 700px;
+    height: 900px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: sticky;
+}
+
+.navbar{
+    width: 100%;
+    height: 100px;
+}
+
+.navbar .container{
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-menu{
+    list-style-type: none;
+    /*padding-left: 0;
+    margin-bottom: 0;*/
+}
+
+.navbar-menu li{
+    display: inline-block;
+}
+
+.navbar-menu li a{
+    display: inline-block;
+    color: #000000;
+    opacity: 0.6;
+    text-decoration: none;
+    /*padding: 10px;*/
+    margin-right: 70px;
+    transition: all 0.1s ease-in-out;
+}
+
+.navbar-menu li a:hover{
+     opacity: 1;   
+}
+
+.navbar-wrap{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.navbar-brand{
+    font-weight: 500;
+    font-size: 50px;
+    margin-left: 30px;
+    text-decoration: none;
+    color: #000000
+}
+
+#Lernen{
+    color:#000000
+}
+#point{
+    color: #DD0000
+}
+#de{
+    color: #FFCE00
+}
+
+.main .row{
+    display: flex;
+    align-items: center;
+}
+
+.main-content{
+    text-align: center;
+
+}
